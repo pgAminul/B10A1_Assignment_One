@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 *{
     margin:0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Inter", sans-serif;
         font-optical-sizing: auto;
         font-style: normal;
+        font-variation-settings:
+            "slnt" 0;
 }
 .header{
     background-image: url('/img/Hero-bg.png');
@@ -56,6 +58,9 @@
 /* Main section start here  */
 .webDevelopment{
     margin:100px auto;
+    background-color: #e7ecff4c;
+    border-radius: 10px;
+    width: 80%;
 }
 .web{
     padding: 20px;
@@ -82,10 +87,17 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 90px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
 }
 .cardDes{
     width: 40%;
 
+}
+.card2{
+    display: flex;
+    justify-content: space-evenly;
 }
 .cardTitle{
     font-size: 24px;
@@ -94,7 +106,7 @@
 }
 .cardContent{
     font-size: 16px;
-    color: #0D1321;
+    color: #0d1321b4;
     margin-bottom:32px ;
 }
 .cardBtn{
@@ -102,7 +114,7 @@
     border : 1px solid black;
     padding: 12px 20px;
     font-size: 20px;
-    color:#0D1321;
+    color: #0d1321b4;
     outline: none;
 
 }
@@ -116,8 +128,124 @@
 }
 .insContent{
     font-size: 16px;
-    color: #0D1321;
+    color: #0d13219c;
     margin: auto;
     width: 60%;
     margin-bottom: 20px;
+}
+.insVideo{
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.449);
+    margin-top: 30px;
+}
+
+
+/* Target sesction start here  */
+.Target{
+    margin: 100px auto;
+    padding: 20px;
+}
+.tarTitlee{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 7px;
+    font-size: 38px;
+}
+.tarContent{
+    text-align: center;
+    color: #0d132185;
+    width: 60%;
+    margin: 0px auto 35px auto;
+}
+.tarCards{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 80%;
+    margin: auto;
+}
+.tarCard{
+padding: 30px;
+text-align: left;
+border-radius: 10px;
+}
+.html{
+    background-color: #ff4b1e37;
+}
+.css{
+    background-color: #004de837;
+}
+.js{
+    background-color: #ffdd003b;
+}
+.tarImg{
+    margin-bottom: 15px;
+}
+.tarTitle{
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.tarDes{
+    margin-bottom: 15px;
+    color: #0d1321c9;
+}
+.tarLink{
+    color: black;
+    font-weight: 500;
+}
+
+
+/* form section start here  */
+.support{
+    background-image: url('/img/handshake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.formSup{
+    background-color: rgba(0, 0, 0, 0.415);
+    padding: 30px;
+}
+.supTitle{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.supDes{
+    margin-bottom: 10px;
+    color: #ffffffb4;
+    width: 60%;
+    margin: 0px auto 15px auto;
+}
+.formInput{
+    width: 50%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    margin-top: 10px;
+        font-size: 18px;
+}
+.formBtn{
+    padding: 15px;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+        font-size: 18px;
+        margin-left: 10px;
+}
+
+/* footer start here  */
+.footer{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    padding: 30px 0px 20px 0px;
+    background-color: #75777d25;
+}
+.linkAc{
+    text-decoration: none;
+    margin-left: 8px;
 }
