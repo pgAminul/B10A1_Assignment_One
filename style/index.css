@@ -235,6 +235,7 @@ border-radius: 10px;
         outline: none;
         font-size: 18px;
         margin-left: 10px;
+        cursor: pointer;
 }
 
 /* footer start here  */
